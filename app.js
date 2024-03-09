@@ -10,14 +10,14 @@ app.listen(port,()=>{
     console.log(`example app listening on port ${port}`)
 })
 
-// app.post('/a',(req, res)=>{
-//     res.send('got a post request ')
-// })
+app.post('/a',(req, res)=>{
+    res.send('got a post request ')
+})
 
 
-// app.listen(port,()=>{
-//     console.log(`example app listening on port ${port}`)
-// })
+app.listen(port,()=>{
+    console.log(`example app listening on port ${port}`)
+})
 
 // app.put('/user',(req, res)=>{
 //     res.send('got a put request at /user')
